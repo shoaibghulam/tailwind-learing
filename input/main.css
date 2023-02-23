@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ar-400{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+.p-600{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.my-para{
+    @apply ar-400 text-[16px] leading-[24px];
+}
